@@ -7,15 +7,12 @@ int y3=240;
 int y4=330;
 int x1=x+a*2;
 float b;
-PFont f1;
 float speed = 0;
 float easing = 0.03;
 int c=1;
 
 void setup() {
-  f1 = createFont("Courier10 BT",30,true);
-  textFont(f1);
-  textAlign(CENTER);
+ 
   size(2000,2000);
   background(0);
   stroke(255);

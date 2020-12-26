@@ -29,7 +29,7 @@ void setup() {
 }
 
 void draw() {
-  background(51);
+  background(0);
   if (counter % 75 == 0) {
     pipes.add(new pipe());
   }

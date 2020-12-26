@@ -18,7 +18,7 @@ class pipe{
   }
 
   void show(){
-    stroke(255);
+    stroke(255，100，100);
     strokeWeight(5);
     line(x, 0, x-w, top);
     line(x-2*w, 0, x-w, top);
